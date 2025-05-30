@@ -21,7 +21,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-recipe-page-using-bem-flexbox-and-custom-list-styling-9-NtwvP_Ha)
 - Live Site URL: [Live site](https://jenphan.github.io/Recipe-Page/)
 
 ## My process
