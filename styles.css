@@ -175,3 +175,16 @@ body {
 .attribution a:focus {
     text-decoration-color: var(--clr-prep);
 }
+
+@media (max-width: 500px) {
+    .recipe {
+        max-width: 100%;
+        margin: 0;
+        padding: var(--spacing-lg);
+        border-radius: 0;
+    }
+
+    body {
+        padding: 0;
+    }
+}
