@@ -3,75 +3,106 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Recipe page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <main class="recipe">
+    <img src="./assets/images/image-omelette.jpeg" alt="Omelette on plate" class="recipe__image"/>
+    <h1 class="recipe__title">Simple Omelette Recipe</h1>
+    <p class="recipe__description">
+      An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+    </p>
 
-  Simple Omelette Recipe
+    <section class="recipe__section recipe__prep">
+      <h3 class="recipe__section-title recipe__prep-title">Preparation time</h3>
+      <ul class="recipe__list recipe__prep-list">
+        <li class="recipe__list-item"><strong>Total:</strong> Approximately 10 minutes</li>
+        <li class="recipe__list-item"><strong>Preparation:</strong> 5 minutes</li>
+        <li class="recipe__list-item"><strong>Cooking:</strong> 5 minutes</li>
+      </ul>
+    </section>
 
-  An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
-  to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+    <section class="recipe__section">
+      <h2 class="recipe__section-title">Ingredients</h2>
+      <ul class="recipe__list">
+        <li class="recipe__list-item">2-3 large eggs</li>
+        <li class="recipe__list-item">Salt, to taste</li>
+        <li class="recipe__list-item">Pepper, to taste</li>
+        <li class="recipe__list-item">1 tablespoon of butter or oil</li>
+        <li class="recipe__list-item">Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+      </ul>
+    </section>
 
-  Preparation time
+    <hr class="recipe__divider" />
 
-  Total: Approximately 10 minutes
-  Preparation: 5 minutes
-  Cooking: 5 minutes
+    <section class="recipe__section">
+      <h2 class="recipe__section-title">Instructions</h2>
+      <ol class="recipe__instructions">
+        <li class="recipe__instructions-item">
+          <p class="recipe__instructions-text">
+            <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.  You can add a tablespoon of water or milk for a fluffier texture.
+          </p>
+        </li>
+        <li class="recipe__instructions-item">
+          <p class="recipe__instruction-text">
+            <strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.
+          </p>
+        </li>
+        <li class="recipe__instructions-item">
+          <p class="recipe__instruction-text">
+            <strong>Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.
+          </p>
+        </li>
+        <li class="recipe__instructions-item">
+          <p class="recipe__instruction-text">
+            <strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.
+          </p>
+        </li>
+        <li class="recipe__instructions-item">
+          <p class="recipe__instruction-text">
+            <strong>Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.
+          </p>
+        </li>
+        <li class="recipe__instructions-item">
+          <p class="recipe__instruction-text">
+            <strong>Enjoy</strong> Serve hot, with additional salt and pepper if needed.
+          </p>
+        </li>
+      </ol>
+    </section>
 
-  Ingredients
+    <hr class="recipe__divider" />
 
-  2-3 large eggs
-  Salt, to taste
-  Pepper, to taste
-  1 tablespoon of butter or oil
-  Optional fillings: cheese, diced vegetables, cooked meats, herbs
+    <section class="recipe__section recipe__nutrition">
+      <h2 class="recipe__section-title">Nutrition</h2>
+      <p class="recipe__description">The table below shows nutritional values per serving without the additional fillings.</p>
 
-  Instructions
+      <table class="recipe__nutrition-table">
+        <tr>
+          <td>Calories</td>
+          <td class="">277kcal</td>
+        </tr>
+        <tr>
+          <td>Carbs</td>
+          <td class="">0g</td>
+        </tr>
+        <tr>
+          <td>Protein</td>
+          <td class="">20g</td>
+        </tr>
+        <tr>
+          <td>Fat</td>
+          <td class="">22g</td>
+        </tr>
+      </table>
+      </section>
+  </main>
 
-  Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
-  You can add a tablespoon of water or milk for a fluffier texture.
-
-  Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.
-
-  Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
-  the eggs evenly coat the surface.
-
-  Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the 
-  middle, sprinkle your chosen fillings over one half of the omelette.
-
-  Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the 
-  fillings. Let it cook for another minute, then slide it onto a plate.
-
-  Enjoy: Serve hot, with additional salt and pepper if needed.
-
-  Nutrition
-
-  The table below shows nutritional values per serving without the additional fillings.
-
-  Calories
-  277kcal
-
-  Carbs
-  0g
-
-  Protein
-  20g
-
-  Fat
-  22g
-  
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="https://www.github.com/jenphan">Jennifer Phan</a>.
   </div>
 </body>
 </html>
